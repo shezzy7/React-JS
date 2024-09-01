@@ -1,0 +1,2 @@
+In JSX formate where we use curly braces then code written inside these curly braces is treated as pur javascript by jsx.If we want to do mathematical operations or want to use some variables in our component then we can use them in curly braces window.
+Learn about it -> https://react.dev/learn/javascript-in-jsx-with-curly-braces

@@ -1,0 +1,5 @@
+                JSX
+JSX stands for JavaScript Extension Syntax.It lets us write html directory inside js.
+It is basically JavaScript code which is transpiled by a special toll which is called Bable.
+When we write code in react then it is writen in JSX and Bable converts it to JavaScript.
+A question may arise in our mind why we need to write code in JSX formate while it's converted laterly in js by bable.The reason is that it is very much easier to write code in JSX for complex componenets instead of js.

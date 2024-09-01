@@ -1,0 +1,2 @@
+This empty tag is called a Fragment. Fragments let you group things without leaving any trace in the browser HTML tree.
+In simple words,as we wrap our components in a single div so node is created in root tree due to this div so for avoiding our code from creating this node we can use an empty tag<>data</> instead of a div tag.

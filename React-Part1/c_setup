@@ -1,0 +1,8 @@
+For setting our system to be able to run react code we need to make a proper setup for react.Basically it is like to add some boiler code in react for making our code to run successfully and efficiently.
+
+Two tools are used for react setup
+1-  Create-React-App
+2-  Vite
+First one is an old method and was used before 2020
+Second Vite was introduced in 2020 which is quicker and also recomemded by facebook.So will use it.
+Go to vitejs.dev and then 'Get Started' , scroll down find npm command which is 'npm create vite@latest' , copy this command come to vscode open directory where want to work with react , open terminal and run this command, give a name to project, choose react(as vite is not only used for react it is used for many libraries as we want to work with react we've to choose react ),then choose javascript(as we are working with JavaScript) and now we will see a folder will be created automatically with the name we provided to our project, now on terminal there will written three commands and we have to run them on terminal(one is 'cd projName' , second one is 'npm install'  and third one is 'npm run dev' ).After running all of these commands local hosts adress appears on terminal and through this address/link we go to our app.

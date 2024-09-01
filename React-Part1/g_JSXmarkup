@@ -1,0 +1,5 @@
+Writing markup for jsx is following
+1-Retrun a root element(To return multiple elements from a component, wrap them with a single parent tag.)
+2-All the tags should be closed(JSX requires tags to be explicitly closed: self-closing tags like <img> must become <img />, and wrapping tags like <li>oranges must be written as <li>oranges</li>.Basically bable uses these closing tags for converting our html code so we have to close all the tags carefully.)
+3-camelCase most of the things(JSX turns into JavaScript and attributes written in JSX become keys of JavaScript objects. In your own components, you will often want to read those attributes into variables. But JavaScript has limitations on variable names. For example, their names can’t contain dashes or be reserved words like class.This is why, in React, many HTML and SVG attributes are written in camelCase. For example, instead of stroke-width you use strokeWidth.)
+we can see writing markup for JSX at -> https://react.dev/learn/writing-markup-with-jsx

@@ -1,0 +1,1 @@
+For structuring our components we use a technique.If there is a component which contains some components in it ,Then we first create those mini components individually in jsx files and then combine them to create major component and then to display this component we render this component in our App.jsx component.

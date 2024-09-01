@@ -1,0 +1,11 @@
+                    React
+React is a library of JavaScript for creating UI(user interface).
+It is very popular library of js.It was created by facebook and still is maintained by facebook.
+Official page of react is on react.dev
+React is basically a frontend technology which helps us in creating beautifull UIs.
+React lets us build user interfaces out of individual pieces called components.Components mean our buttons,cards etc.Every elmemnt in react is called a component.So we create components individually and then combine these components to entir screens,pages and apps.
+Here components are like functions which perform some operations and return some thing.Here in term of components we use term render instead of call/invoke so we render components and in result they return some data.
+A components can be as small as a button and as large as a page.
+So whole code in react is written in the form of components.  
+
+Components contain code consists of HTML,CSS and JS.If we see this code then we will be unable to understand it as it is written in a special formate which is known as JSX.In this formate html code is written inside javascript code.So JSX is a way of writing html code inside js code.

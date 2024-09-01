@@ -1,0 +1,6 @@
+Component is reuseable and independent piece of code.We write code for our components in App.jsx
+syntax->  function FuncName(){ return (<h1> Hello World!</h1>);}
+
+after creating our components we have to render it ,for rendering  we will go into our App component and will write name of componenet as an HTML tag like <Title></Title> or </Title> and our this new separate component will be rendered on our page through our App component.
+Note : with our return statement we can only return a single tag but if we want to return many elements then we create a div tag and then place all the components in this div tag. 
+We can also create components in our App.jsx but generaly each components has its own separate file but this component's name.And we have to export this file and also have to import this compnent in our App file.

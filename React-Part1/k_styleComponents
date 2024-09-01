@@ -1,0 +1,1 @@
+we can also style our components individually by creating a css file with components file name just for better understanding and we can write styling by defining a className to our root element of component jsx file.Then we to import this css file in our component jsx file

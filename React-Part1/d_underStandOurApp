@@ -1,0 +1,11 @@
+In our react folder node_modules folder contains our node depecies.
+Public folder contains a image in it.
+src is our main folder which contains main files with which we work.In src our assets folder contains only react image.
+In App.jsx we make our components(js&html) and styling for these components is written in app.css.
+Here index.html is our main file which we show on our live page.In this index.html file there's a div with id 'root' and script file for this file is main.jsx.In main.jsx files we import some things and here we select our div with id 'root' and render in this div our App.jsx file.
+Basically in short our main file is index.html which contains a dive with id 'root' and this html file is scripted with main.jsx which renders App.jsx data in root element.Mean main.jsx get component by App.jsx and render it in index.html's div with id 'root'.  
+Styling for our index.html is written in index.css
+
+In short our index.html files creates a div for us and connect main.jsx with it.
+Our main.jsx file access our index.html's element div with id 'root' and render App.jsx data in it.
+Our App.jsx file contains the main code which we write to show it on our page.
