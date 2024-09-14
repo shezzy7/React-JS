@@ -1,0 +1,3 @@
+We can pass Arrays and object in our porps by using two methods.
+One is passing an already existing array/object.In this method we just write name of our key and then = sign and in curly braces we write name of our array.object
+eg. keyName = {array/ObjectName}

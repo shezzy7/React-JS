@@ -1,0 +1,5 @@
+                    Hooks
+When react was initially lunched we build components using classes instead of functions.But later function were introduced to build components.But there were some functionalities which were present in classes which were not present in functions.To add these functionalities hooks were introduced.
+Initially 10 hooks were introduced ,5 were introduced laterly and now totol 15 hooks are present.
+So basically hooks are functions/methods that permisions/allows us to use more functionalities in our components.
+They let us use state and other react features without writing a class.

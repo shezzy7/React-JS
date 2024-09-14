@@ -1,0 +1,4 @@
+    State
+"The state is a built-in React object that is used to contain or store information about the component.A component's state change over time;whenever it changes,component re-renders."
+Our props are immuteable,we cannot make chnages to our props so changes made to our props would not re-render our components,our components will be only re-rendered if any changes are maded to our states.Basically state is a variable of object type whichs tores data of compoenents so when we make any change to our component,it will change our state and whenever our state will change,it will re-render our componeents and our page will be updated. 
+To use states we should know about hooks.

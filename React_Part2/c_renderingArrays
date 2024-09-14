@@ -1,0 +1,2 @@
+If we render array in our jsx file we see that all the data/items in it all printed in one single line with any space or anything else.So to overcome this problem and we want to get all the elements individually we can send them as list items.
+For example we will create array like this -> let array = [<li>item1</li>,...<li>itemn</>];

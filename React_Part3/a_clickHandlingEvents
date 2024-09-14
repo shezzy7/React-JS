@@ -1,0 +1,5 @@
+we can also use handling events in react.But in react instead of first geting element and then appplying some events on it we add events in tags name.
+for example if we want to add a click event on a button that will call a function then we can define a function.
+
+<button onClick = {funcNAme}> click me! </button>
+like this one

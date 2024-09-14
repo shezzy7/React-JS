@@ -1,0 +1,16 @@
+Props are the information that you pass to JSX tag.
+React props are like arguments that we pass to components while rendering them.
+For example if we have a page with three boxes, each box contains two things one is title and second one is  description.Then instead of created three components for each box we can create a single components and reuse it for all the three boxes by using props.Here we will create a single component which will display data provided by these props in same way.
+If we want to send some integer type data in our props then we send it by closing in a curly braces like {123}
+
+
+<Product title = "Lamborghini" price = "30000"/> here we are rendering Product by sending props to this component and then using these props here as our components receive them in the form of objects
+
+function Product(props){
+    return (
+        <div class="prd">
+            <h3>{props.title}</h3>
+            <h5>{props.price}</h5>
+        </div>
+    );
+}
