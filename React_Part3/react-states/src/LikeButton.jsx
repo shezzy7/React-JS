@@ -14,7 +14,7 @@ export default function LikeButton(){
         <div>
             <h1 onClick={toggleLike} >
             { isLiked? 
-            (<i className="fa-solid fa-heart" style={{color:"red"}}></i>):
+            (<i className="fa-solid fa-heart" style={{color:"yellow"}}></i>):
             (<i className="fa-regular fa-heart"></i>)
             }
             </h1>

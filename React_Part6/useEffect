@@ -1,0 +1,2 @@
+useEffect is a hook which is basiccaly used to add some side effects.
+Basically, when we want to perform some operation whenever our component is rendered or re-rendered,then we use useEffect.
