@@ -1,0 +1,8 @@
+MAterial UI is a library of React UI components.
+Like related CSS there is bootstrap which provides already builded components.Here React also contains a library of such items which are already builded.But unlike bootstrap which is builded using CSS and at some places alos uses js.But this library contains pre-built componenets purely builded using react also work like react components.
+These pre-built components are present on Material UI web.
+Before using Material UI we need to install it.For installing command is also present in its documentation. command -> npm install @mui/material @emotion/react @emotion/styled
+
+Material UI uses the Roboto font by default. Add it to your project via Fontsource, or with the Google Fonts CDN. command -> npm install @fontsource/roboto
+
+To use the font Icon component or the prebuilt SVG Material Icons (such as those found in the icon demos), you must first install the Material Icons font. You can do so with npm, or with the Google Web Fonts CDN. command -> npm install @mui/icons-material

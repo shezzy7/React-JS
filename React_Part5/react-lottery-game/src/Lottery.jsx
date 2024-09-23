@@ -12,6 +12,7 @@ export default function Lottery({n,winCond}) {
     let  buyTicket = ()=>{
         setTicket(genNums(n));
     }
+    
     return (
         <div>
             

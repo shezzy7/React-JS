@@ -14,9 +14,9 @@ export default function Form(){
     
     let handleFormChange = (event)=>{
         setFormData((prevData)=>{
-            // Here we are composing event.target.name in a square bracket bcz here we don't know exact value of key to be changed so wehen we don't know exact value of a key and another name is present thiskey then we 
+            // Here we are composing event.target.name in a square bracket bcz here we don't know exact name of key to be changed so wehen we don't know exact name of a key and another name is present thiskey then we 
             return {...prevData,[event.target.name]:event.target.value};
-            // Here event.target.name contains the name of variable of this object.And we have also added a name attribute in each input tag for this purpose of getting the variable name of whome value is changed.And i this name attribute we have assigned value of that variable which contians the input value of that input tag./s
+            // Here event.target.name contains the name of kay to be chnaged of this object.And we have also added a name attribute in each input tag for this purpose of getting the key name of whome value is changed.And in this name attribute we have assigned name of that key which contians the input value of that input tag.
         })
     }
     let handleSubmit =(event)=>{

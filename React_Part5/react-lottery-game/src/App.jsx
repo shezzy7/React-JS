@@ -3,7 +3,7 @@ import './App.css'
 import Lottery from './Lottery';
 function App() {
 let winCond =(ticket)=>{
-    return ticket.every(()=> ticket[0]===0);
+    return  ticket[0]===0;
 }
   return (
     <>
