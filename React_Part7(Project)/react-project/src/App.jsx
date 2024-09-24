@@ -1,12 +1,14 @@
 // import { useState } from 'react'
-import Whether from './Whether'
+
 import './App.css'
+import WheatherApp from './WheatherApp'
 
 function App() {
   
   return (
     <>
-        <Whether />
+        <WheatherApp />
+       
     </>
   )
 }
